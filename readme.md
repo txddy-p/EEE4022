@@ -5,7 +5,8 @@
 - adjusting these various angles can lead to various different scenarios
 
 ## Rot_Box pendulum
-- this approach tried using rotation matrices but was overall very convoluted
+- this approach uses rotation matrices to good effect
+- 3d plots seem to work
 
 ## Box pendulum
 - this follows the pyomo tutorial, but I had a problem with putting it in 3D
