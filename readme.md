@@ -1,12 +1,9 @@
 # EEE4022 Reseacrh project
-
+- The following are various approaches to modelling the pendulum
+- all attempt differ from each other by means of position definitions and angular velocity definitions, the other parts of the dynamics are consequences of the positions, hence the approach to finding the remaining dynamics are the same
 ## Spherical pendulum
-- this was by far the best approach, because it takes a simple pendulum, puts it in 3D, adds a second pendulum in 3D as well using angles $\theta_1, \theta_2, \phi_1, \phi_2$
-- adjusting these various angles can lead to various different scenarios
+- this approach uses spherical coordinates to define postions using angles $\theta_{1,2}, \phi_{1,2}$
 
-## Rot_Box pendulum
-- this approach uses rotation matrices to good effect
-- 3d plots seem to work
-
-## Box pendulum
-- this follows the pyomo tutorial, but I had a problem with putting it in 3D
+## final version
+- This approach defines the position of the pendulum in it's own frame and then uses the rotation matrix to find the position in the global frame
+- This approach uses the rotation matrix to find the position in the global frame
