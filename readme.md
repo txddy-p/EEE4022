@@ -7,3 +7,5 @@
 ## final version
 - This approach defines the position of the pendulum in it's own frame and then uses the rotation matrix to find the position in the global frame
 - This approach uses the rotation matrix to find the position in the global frame
+
+# DO NOT FORGET TO UPDATE THE PLOTTING CODE WHEN YOU UPDATE THE MODEL
